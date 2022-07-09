@@ -103,7 +103,12 @@ if  driver.find_element(:name, 'websubmit').displayed?
 else
     puts "Submit button not displayed"
 end
-sleep 40
+sleep 2
+
+driver.save_screenshot 'C:/Users/Rashika/Desktop/Facebook signup/facebook_signup.png'
+puts 'Screenshot taken'
+
+sleep 35
 
 if  driver.find_element(:id, 'reg_error').displayed?
     reg_err_text = driver.find_element(:id, 'reg_error').text
