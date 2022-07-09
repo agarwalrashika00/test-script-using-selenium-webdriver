@@ -1,2 +1,2 @@
 # test-script-using-selenium-webdriver
-This test script opens chrome home page and searches on it using automated testing using selenium webdriver.
+This test script opens facebook and signs up on the page using keys sent by the driver
